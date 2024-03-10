@@ -10,8 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 
 /*
 
@@ -25,11 +24,11 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 */
 
-@import url('make-something-fly.css');
-@import url('animated-gradient.css');
-@import url('text-stroke.css');
-@import url('stroke-shadow.css');
-@import url('scroll-to-top.css');
+@import url("make-something-fly.css");
+@import url("animated-gradient.css");
+@import url("text-stroke.css");
+@import url("stroke-shadow.css");
+@import url("scroll-to-top.css");
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -72,12 +71,12 @@ html {
 :root {
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: "Madimi One", sans-serif;
-  --project-title-typeface: 'Eczar', serif;
+  --project-title-typeface: "Eczar", serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;    
+  --background-color-footer: #f5f5f5;
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255,0.6);
+  --background-color-holding-page: rgba(82, 0, 255, 0.6);
   --h1-color: #5200ff;
   --h2-color: #5200ff;
   --h3-color: #5200ff;
@@ -106,7 +105,6 @@ html {
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
-
 body {
   font-family: var(--body-typeface);
   color: var(--primary-text-color);
@@ -132,8 +130,6 @@ svg {
   object-fit: contain;
   /* This is optional. Also try cover or leave out entirely. */
 }
-
-
 
 /* Global & Mobile Typography 
 
@@ -195,7 +191,7 @@ em {
 }
 
 .fineprint {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .hero-headline {
@@ -217,7 +213,6 @@ em {
 .overlay-description {
   color: var(--overlay-description-color);
 }
-
 
 /* Hyperlink Styles */
 
@@ -271,8 +266,6 @@ a:active {
   background-position: center center;
 }
 
-
-
 .heart {
   color: var(--heart-color);
 }
@@ -300,8 +293,6 @@ a:active {
   line-height: 1.2;
   margin-bottom: 1rem;
 }
-
-
 
 /* Hero 
 
@@ -359,9 +350,6 @@ a:active {
   padding: 1rem;
 }
 
-
-
-
 /* Work Page Layout
 
 ██     ██  ██████  ██████  ██   ██     ██████   █████   ██████  ███████ 
@@ -379,7 +367,7 @@ a:active {
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 /* Defining the work page grid */
@@ -414,16 +402,13 @@ a:active {
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity .3s, visibility .3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: .8;
+  opacity: 0.8;
 }
-
-
-
 
 /* 
 
@@ -474,7 +459,6 @@ a:active {
                                                    
 */
 
-
 .global-footer {
   display: grid;
   grid-template-columns: 1fr;
@@ -507,7 +491,6 @@ a:active {
 .awards-list {
   margin-bottom: 2rem;
 }
-
 
 /* Project Page 
 
@@ -583,15 +566,13 @@ a:active {
   width: 100%;
   padding: 1rem;
   /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(-225deg,
-      var(--linear-gradient-color-1) 0%,
-      var(--linear-gradient-color-2) 50%,
-      var(--linear-gradient-color-3) 100%);
+  background-image: linear-gradient(
+    -225deg,
+    var(--linear-gradient-color-1) 0%,
+    var(--linear-gradient-color-2) 50%,
+    var(--linear-gradient-color-3) 100%
+  );
 }
-
-
-
-
 
 /* 
 
@@ -612,8 +593,11 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)),
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
     url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
@@ -635,7 +619,7 @@ a:active {
 }
 
 .holding-page-copyright {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--holding-page-footer-color);
   margin-bottom: 0;
 }
@@ -653,7 +637,6 @@ a:active {
   padding: 3rem;
 }
 
-
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -667,7 +650,8 @@ a:active {
   place-items: center;
 }
 
-.error-page-wrapper {}
+.error-page-wrapper {
+}
 
 .error-page-inner-container {
   text-align: center;
@@ -691,7 +675,8 @@ a:active {
   place-items: center;
 }
 
-.play-page-wrapper {}
+.play-page-wrapper {
+}
 
 .play-page-inner-container {
   text-align: center;
@@ -701,7 +686,6 @@ a:active {
   color: var(--accent-color);
 }
 
-
 /*
 ███████ ██   ██ ██████  ███████ ██████  ██ ███    ███ ███████ ███    ██ ████████ ███████ 
 ██       ██ ██  ██   ██ ██      ██   ██ ██ ████  ████ ██      ████   ██    ██    ██      
@@ -709,7 +693,6 @@ a:active {
 ██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
-
 
 .experiments-page {
   display: grid;
@@ -754,7 +737,8 @@ a:active {
   text-align: center;
 }
 
-.sub-navigation-item {}
+.sub-navigation-item {
+}
 
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
@@ -807,7 +791,6 @@ a.sub-navigation-link:hover {
   }
 }
 
-
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -818,15 +801,14 @@ a.sub-navigation-link:hover {
 
 */
 
-
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
   .holding-page-title {
     font-size: 2rem;
   }
@@ -865,8 +847,8 @@ a.sub-navigation-link:hover {
     filter: grayscale(100);
   }
 
-  .work-page-grid-item>a.grayscale:active img,
-  .work-page-grid-item>a.grayscale:hover img {
+  .work-page-grid-item > a.grayscale:active img,
+  .work-page-grid-item > a.grayscale:hover img {
     filter: grayscale(0);
   }
 
@@ -933,7 +915,6 @@ a.sub-navigation-link:hover {
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
-
   }
 
   /* Sidebar on Large Devices */
@@ -967,18 +948,20 @@ a.sub-navigation-link:hover {
   .arrow {
     padding-right: 1rem;
   }
-
-
 }
-
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
 
-
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-gap: 1rem;
+  }
+}
