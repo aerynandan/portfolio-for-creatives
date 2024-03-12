@@ -1,18 +1,7 @@
 :root {
     --gradient: linear-gradient(
         to left top,
-        #d17ba5,
-        #1374b2,
-        #b276bc,
-        #9f7cc4,
-        #8b81c8,
-        #628cd4,
-        #5557db,
-        #63a1dd,
-        #00b3dd,
-        #00c2d1,
-        #00d0bb,
-        #11daa0
+        #315659
       );
 }
 
