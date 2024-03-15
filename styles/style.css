@@ -93,9 +93,9 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #5200ff;
-  --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-title-color: #060606;
+  --project-sidebar-background-color: transparent;
+  --project-sidebar-text-color: rgb(7, 7, 7);
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
@@ -539,15 +539,11 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
+
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.large-emoji-placeholder {
-  font-size: 12rem; /* This is for making the placeholder emojis large and should be deleted */
 }
 
 .text-section {
@@ -565,13 +561,6 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(
-    -225deg,
-    var(--linear-gradient-color-1) 0%,
-    var(--linear-gradient-color-2) 50%,
-    var(--linear-gradient-color-3) 100%
-  );
 }
 
 /* 
