@@ -318,8 +318,8 @@ a:active {
 
 .logo {
   width: 3rem;
-}
 
+}
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
@@ -366,6 +366,9 @@ a:active {
 .portfolio,
 .project-wrapper {
   padding: 0.25rem;
+}
+body {
+  background-image: url("assets/imgs/northen-lights-by-nandan-aery-2.jpg");
 }
 
 /* Defining the work page grid */
@@ -575,15 +578,11 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1),
-      var(--background-color-holding-page)
-    ),
-    url(/assets/temp/noise.svg);
-  /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
-}
 
+}
+body {
+  background-image: url(assets/imgs/lakes-by-nandan-aery-3.jpg");
+}
 .holding-page-animation {
   margin-bottom: 1rem;
 }

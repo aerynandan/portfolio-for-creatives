@@ -1,26 +1,5 @@
-:root {
-    --gradient: linear-gradient(
-        to left top,
-        #ffffff,
-        #ffffff,
-        #ffffff,
-        #ffffff,
-        #ffffff,
-        #ffffff,
-        #ffffff,
-        #63a1dd,
-        #00b3dd,
-        #ffffff,
-        #ffffff,
-        #ffffff
-      );
-}
 
-.gradient-animation {
-    background-size: 600%;
-    background-image: var(--gradient);
-    animation: bg-animation 90s infinite alternate;
-}
+
 
 @keyframes bg-animation {
     0% {
