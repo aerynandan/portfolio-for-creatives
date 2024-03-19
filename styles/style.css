@@ -318,7 +318,6 @@ a:active {
 
 .logo {
   width: 3rem;
-
 }
 .hero-headline-wrapper {
   display: flex;
@@ -577,11 +576,7 @@ body {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  /* Delete the following if you do not want a grainy gradient background on the holding page */
 
-}
-body {
-  background-image: url(assets/imgs/lakes-by-nandan-aery-3.jpg");
 }
 .holding-page-animation {
   margin-bottom: 1rem;
@@ -795,11 +790,11 @@ a.sub-navigation-link:hover {
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 10.275rem;
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 3.5rem;
   }
 
   h3 {
@@ -807,7 +802,7 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 5rem;
+    width: 9rem;
   }
 
   .hero {
