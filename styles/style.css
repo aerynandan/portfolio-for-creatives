@@ -287,11 +287,20 @@ a:active {
 }
 
 .project-description {
-  font-size: 1.225rem;
+  font-size: 1.85rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
-
+.project-description2-1 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.project-description2-2 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
 /* Hero 
 
 ██   ██ ███████ ██████   ██████  
@@ -576,7 +585,6 @@ body {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-
 }
 .holding-page-animation {
   margin-bottom: 1rem;
@@ -835,7 +843,7 @@ a.sub-navigation-link:hover {
 
   .global-footer {
     padding: 4rem 4rem 0 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .about-item-1 {
