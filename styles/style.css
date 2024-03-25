@@ -76,7 +76,7 @@ html {
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(249, 249, 251, 0.6);
   --h1-color: #f7f7f8;
-  --h2-color: #ffd447;
+  --h2-color: #ffd447de;
   --h3-color: #fcfcfd;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
@@ -91,7 +91,7 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #f6f5f6;
-  --project-title-color: #ffffff;
+  --project-title-color: #2ed68dc5;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: rgb(250, 249, 249);
   --heart-color: darkred;
@@ -101,6 +101,9 @@ html {
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
+  --project-title-color: #969a65c5;
+  --project-title-color: #ffd447df;
+  --project-title3-color: #2e4ad6c5;
 }
 
 body {
@@ -196,13 +199,24 @@ em {
   color: var(--overlay-color);
 }
 
-.project-title {
+.project-title1 {
   font-size: 3.725rem;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
 }
-
+.project-title2 {
+  font-size: 3.725rem;
+  font-family: var(--project-title-typeface);
+  color: var(--project-title-color);
+  margin-bottom: 1rem;
+}
+.project-title3 {
+  font-size: 3.725rem;
+  font-family: var(--project-title-typeface);
+  color: var(--project-title-color);
+  margin-bottom: 1rem;
+}
 .overlay-title {
   font-size: 2.875rem;
   color: var(--overlay-title-color);
@@ -946,6 +960,6 @@ a.sub-navigation-link:hover {
 @media (min-width: 1400px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: rem;
   }
 }
