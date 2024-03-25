@@ -329,6 +329,9 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+  background: url(../assets/imgs/lakes-by-nandan-aery-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .branding-navigation {
